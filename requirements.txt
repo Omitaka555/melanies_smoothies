@@ -2,3 +2,9 @@
 snowflake-snowpark-python
 streamlit
 requests
+
+# New section to display fruityvice nutrition information
+import requests
+fruitvice_response = ewquest.get("http://fruityvice.com/api/fruit/watermelon")
+st.text(fruityvice_response.json())
+
