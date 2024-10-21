@@ -4,7 +4,7 @@ from snowflake.snowpark.functions import col
 import requests
 
 # Write directly to the app
-st.title('My Parents New Healthy Dinner')
+st.title('Customize Your Smoothie')
 st.write(
     """
     Choose the fruits you want in your custom Smoothie!
