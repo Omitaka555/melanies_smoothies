@@ -1,4 +1,4 @@
-# Import python packages
+    # Import python packages
 import streamlit as st
 from snowflake.snowpark.functions import col
 import requests
@@ -38,8 +38,8 @@ if ingredients_list:
             values ('""" + ingredients_string + """','"""+name_on_order+ """')"""
 
 
-st.write(my_insert_stmt)
-st.stop()
+    st.write(my_insert_stmt)
+    st.stop()
     
 time_to_insert = st.button('Submit Order')
     
